@@ -8,7 +8,7 @@
 	        		</v-icon>
 	        	</v-btn>
 	        	<v-spacer/>
-	        	<v-btn icon @click="$router.push('/preferences')">
+	        	<v-btn icon>
 	        		<v-icon color='#000'>
 	        			mdi-dots-vertical
 	        		</v-icon>
