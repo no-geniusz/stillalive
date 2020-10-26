@@ -7,11 +7,11 @@
 							mdi-arrow-left
 						</v-icon>
 				</v-btn>
-				<v-spacer></v-spacer>
+				<v-spacer/>
 				<v-toolbar-title >
 					Wybór Planu
 				</v-toolbar-title>
-				<v-spacer></v-spacer>
+				<v-spacer/>
 				<v-btn @click="$router.push('/setupPlan')" icon>
 						<v-icon color='#000'>
 							mdi-card-plus
@@ -69,7 +69,7 @@ export default {
 
 <style>
 	.plans {
-		padding: 8px;
+		padding: 8px 16px;
 		height: 100%;
 	}
 	#app-bar {

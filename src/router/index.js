@@ -5,6 +5,7 @@ import planSelect from '../views/planSelect.vue'
 import setupPlan from '../views/setupPlan.vue'
 import mainPage from '../views/mainPage.vue'
 import productMenu from '../views/productMenu.vue'
+import setupProduct from '../views/setupProduct.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
 		path: '/productMenu',
 		name: 'productMenu',
 		component: productMenu
+	},
+	{
+		path: '/setupProduct',
+		name: 'setupProduct',
+		component: setupProduct
 	},
 ]
 

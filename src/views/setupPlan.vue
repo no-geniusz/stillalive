@@ -108,10 +108,6 @@ export default {
 </script>
 
 <style>
-	.setupPlan {
-		width: 100%;
-        padding: 24px;
-	}
 	.edit {
         margin: 0 auto;
 		max-width: 100vh;
